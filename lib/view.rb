@@ -2,7 +2,7 @@ require 'observer'
 
 class TicTacToeView
   def display_board(board)
-  #system 'clear'  # screen cleaner
+  system 'clear'  # screen cleaner
     puts " "
     puts " #{board[0] || ' '} | #{board[1] || ' '} | #{board[2] || ' '}                    0 | 1 | 2 "
     puts '-----------                 -------------'
