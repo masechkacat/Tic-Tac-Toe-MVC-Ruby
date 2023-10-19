@@ -9,5 +9,3 @@ model = TicTacToeModel.new
 view = TicTacToeView.new
 controller = TicTacToeController.new(model, view)
 controller.start
-controller.play
-model.add_observer(view)

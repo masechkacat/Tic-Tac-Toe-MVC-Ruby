@@ -30,8 +30,9 @@ class TicTacToeController
         elsif @model.check_draw
           @view.display_result("It's a draw!")
           break
+        else
+          player = player == 'X' ? 'O' : 'X'
         end
-        player = player == 'X' ? 'O' : 'X'
       else
         @view.display_result('Invalid move. Try again.')
       end
